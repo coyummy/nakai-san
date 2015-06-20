@@ -6,9 +6,9 @@
 	min-width: 300px; 
     margin-left: auto;
     margin-right: auto;
-}
+} 
 /* Set the columns style */
-.niceG allery ul.entries-columns { 
+.niceGallery ul.entries-columns { 
     display: block;
 	-webkit-column-count: 4;
 	-webkit-column-gap: 10px; 
