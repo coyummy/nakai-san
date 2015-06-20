@@ -10,12 +10,12 @@ $(document).ready(function (){
   //Usage 
   $("#gallery").flickrGallery({
             //FLICKR API KEY
-//            Key: 'YOUR API KEY',
-//            //Secret
-//            Secret: 'YOUR SECRET',
-//            //FLICKR user ID
-//            User: 'YOUR ID',
-//            //Flickr PhotoSet ID
-//            PhotoSet: 'YOUR ALBUM ID'
+            Key: '0a1b25a53e9e14f082d4279801a21e07',
+            //Secret
+            Secret: '1793b8daf49c1b83',
+            //FLICKR user ID
+            User: '40678900@N04',
+            //Flickr PhotoSet ID
+            PhotoSet: '72157654808937155'
   });
 }); 
