@@ -6,7 +6,10 @@
 	min-width: 300px; 
     margin-left: auto;
     margin-right: auto;
-} 
+}
+.niceGallery ul {
+    padding-left: 0;
+}
 /* Set the columns style */
 .niceGallery ul.entries-columns { 
     display: block;
