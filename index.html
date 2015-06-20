@@ -4,6 +4,23 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 <meta name="robots" content="noindex,nofollow">
+<!-- jQuery library -->
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+<!-- start niceGallery scripts --> 
+<script type="text/javascript" src="js/custom.js"></script>  
+<script type="text/javascript" src="js/FlickrAPI.js"></script>
+<script type="text/javascript" src="js/Flickr.Gallery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="gallery.css" />
+<script>
+$(document).ready(function (){ 
+  $("#gallery").flickrGallery({
+    // OPTIONS
+  });
+});
+</script>
+<!-- end niceGallery scripts -->
+
 <style>
 body {
   font-family: Helvetica, arial, sans-serif;
@@ -396,5 +413,31 @@ sup {
 </ul>
 
 
+<div class="jquery-script-ads" style="margin:30px auto;"><script type="text/javascript"><!--
+//FLICKR API KEY
+Key: '0a1b25a53e9e14f082d4279801a21e07',
+//Secret
+Secret: '1793b8daf49c1b83',
+//FLICKR user ID
+User: '40678900@N04',
+//Flickr PhotoSet ID
+PhotoSet: '72157654808937155',
+/*-- VIEWBOX SETTINGS --*/ 
+Speed   : 400,    //Speed of animations
+navigation  : 1,    //(true) <a href="http://www.jqueryscript.net/tags.php?/Navigation/">Navigation</a> (arrows)
+keyboard  : 1,    //(true) Keyboard navigation 
+numberEl  : 1     //(true) Number elements
+//-->
+</script>
+</div>
+<div class="content"> 
+ 
+  <!-- gallery STRUCTURE -->
+  <div class="niceGallery" id="gallery">
+        <!-- HERE IS PLACE FOR PHOTOS -->
+  </div>
+  <!-- end gallery STRUCTURE --> 
+
+</div>
 </body>
 </html>
